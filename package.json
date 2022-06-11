@@ -1,6 +1,6 @@
 {
   "name": "dicre",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "a collection of utilities from the development institute of computer research and empowerment south africa",
   "main": "index.js",
   "scripts": {
