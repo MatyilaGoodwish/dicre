@@ -6,7 +6,7 @@
  * @param {any} str
  */
 
-export class Utils {
+class Utils {
     constructor() { }
 
     static range([min, max], str, callback) {
@@ -56,11 +56,6 @@ export class Utils {
     }
 }
 
-
-//synchronous usage
-//console.log(range([1, 5], "cust")); // true
-
-//asynchrous usage takes an optional callback with single result parameter
-//range([10, 100], "the customer is always right", (response) => {
-  //  console.log("From the asynchronous: " + response); //true
-//})
+module.exports = {
+    Utils
+}
